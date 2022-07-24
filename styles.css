@@ -1,0 +1,75 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.text-class {
+  color: #fff;
+  background: linear-gradient(271deg,
+      #a0e9ff 30%,
+      #a162e8 50%,
+      #f093b0 70%,
+      #edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-class {
+  color: #232320;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  letter-spacing: -1.5px;
+  line-height: 110%;
+  margin: 70;
+  padding: 50;
+  transition: all 0.2s ease-in-out;
+}
+
+.socials {
+  padding: 50;
+}
+
+.h6-text-class {
+  color: #232320;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  letter-spacing: -1.5px;
+  line-height: 10%;
+  margin: 70;
+  padding: 50;
+  
+}
+
+@media (min-width: 1000px) {
+  .text-class {
+    font-size: 4.5em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .text-class {
+    font-size: 6.5em;
+    letter-spacing: -3px;
+  }
+}
+
+.cols {
+  column-count: 2;
+}
+
+img {
+  border-radius: 77px;
+  margin: 77px;
+}
